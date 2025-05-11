@@ -46,7 +46,7 @@ A robust e-commerce REST API built with Spring Boot, providing essential feature
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/shajib07/ecommerce-api.git
    cd Ecommerce-Api
    ```
 
