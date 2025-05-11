@@ -50,18 +50,22 @@ A robust e-commerce REST API built with Spring Boot, providing essential feature
    cd Ecommerce-Api
    ```
 
-2. Configure MySQL database:
+2. Set up your configuration:
    - Create a database named `store`
-   - Update `application.yaml` with your database credentials:
-     ```yaml
-     spring:
-       datasource:
-         url: jdbc:mysql://localhost:3306/store
-         username: your_username
-         password: your_password
-     ```
+   - Copy the template files to create your local configuration:
+      • Copy src/main/resources/application.yaml.template to src/main/resources/application.yaml
+      • Copy maven.properties.template to maven.properties
+   - Edit these files to include your actual database credentials and any other environment-specific settings.
+        username: your_username
+        password: your_password
 
-3. Run the application:
+3. Build the project:
+   Run the following command to build the project and download dependencies:
+   ```bash
+   mvn clean install
+   ```
+   
+4. Run the application:
    ```bash
    mvn spring-boot:run
    ```
