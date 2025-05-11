@@ -1,0 +1,3 @@
+maven.url=jdbc:mysql://localhost:3306/store?createDatabaseIfNotExist=true
+maven.user=your_username
+maven.password=your_password 

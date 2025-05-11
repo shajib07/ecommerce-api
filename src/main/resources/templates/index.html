@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .endpoints {
+            margin-top: 20px;
+        }
+        .endpoint {
+            background-color: #f8f9fa;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Welcome to E-commerce API</h1>
+    <div class="endpoints">
+        <h2>Available Endpoints:</h2>
+        <div class="endpoint">
+            <strong>Authentication:</strong>
+            <ul>
+                <li>POST /auth/login - User login</li>
+                <li>POST /auth/register - User registration</li>
+            </ul>
+        </div>
+        <div class="endpoint">
+            <strong>Products:</strong>
+            <ul>
+                <li>GET /products - List all products</li>
+                <li>GET /products/{id} - Get product details</li>
+            </ul>
+        </div>
+        <div class="endpoint">
+            <strong>Cart:</strong>
+            <ul>
+                <li>GET /carts - List all carts</li>
+                <li>POST /carts - Create new cart</li>
+                <li>GET /carts/{id} - Get cart details</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
