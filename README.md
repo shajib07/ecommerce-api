@@ -189,20 +189,6 @@ Content-Type: application/json
 }
 ```
 
-#### Add Address
-```http
-POST {{baseUrl}}/users/{{userId}}/addresses
-Authorization: Bearer {{token}}
-Content-Type: application/json
-
-{
-    "street": "123 Main St",
-    "city": "Anytown",
-    "state": "CA",
-    "zip": "12345"
-}
-```
-
 
 ## Error Handling
 
